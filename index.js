@@ -1,6 +1,4 @@
-const createorUpdateProductContentType = require('./content-types/product/product');
-const createProductListContentType = require('./content-types/product-list/product-list');
+const productContentType = require('./content-types/product/product');
 
 // Run content type creation scripts
-createorUpdateProductContentType();
-createProductListContentType();
+productContentType();

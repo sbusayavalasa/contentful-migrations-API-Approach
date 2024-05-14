@@ -1,0 +1,35 @@
+{
+    "name": "Test CMA Product",
+    "description": null,
+    "fields": [
+        {
+            "id": "catalog",
+            "name": "Catalog",
+            "type": "Symbol",
+            "omitted": false
+        },
+        {
+            "id": "version",
+            "name": "Version",
+            "type": "Number",
+            "omitted": false
+        },
+        {
+            "id": "version1",
+            "name": "Version1",
+            "type": "Number",
+            "omitted": false
+        },
+        {
+            "id": "version2",
+            "name": "Version2",
+            "type": "Symbol",
+            "required": true,
+            "validations": [
+                {
+                    "unique": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "controls": [
+        {
+            "fieldId": "version2",
+            "widgetId": "dropdown",
+            "widgetNamespace": "builtin"
+        }
+    ]
+}
